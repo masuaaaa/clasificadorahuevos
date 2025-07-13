@@ -18,11 +18,6 @@
   <div class="container py-4">
     <h1 class="text-center mb-4">Simulador – Clasificadora de Huevos</h1>
 
-    <!-- Imagen de la máquina -->
-    <div class="text-center">
-      <img id="machineImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Egg_sorting_machine.jpg/640px-Egg_sorting_machine.jpg" alt="Imagen de la clasificadora de huevos">
-    </div>
-
     <!-- Configuración de la máquina -->
     <div class="card mb-4 p-4">
       <h4 class="mb-3">Parámetros de la máquina</h4>
