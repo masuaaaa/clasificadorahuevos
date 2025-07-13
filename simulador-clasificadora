@@ -121,7 +121,7 @@
     if (text.includes('voltaje') || text.includes('energia') || text.includes('consumo')) return info.energia;
     if (text.includes('capacidad') || text.includes('velocidad') || text.includes('cuantos huevos')) return info.capacidad;
     if (text.includes('categoria') || text.includes('clasificar') || text.includes('peso')) return info.categorias;
-    if (text.includes('calibrar') || text.includes('calibracion')) return info.calibracion;
+    if (text.includes('calibrar') || text.includes('calibracion') || text.includes('como calibro') || text.includes('configurar')) return info.calibracion;
     if (text.includes('hola') || text.includes('buenas') || text.includes('saludo')) return '¡Hola! Soy Huevín 🐣 ¿En qué te puedo ayudar?';
     return 'Lo siento, no cuento con esa información en este momento. Para mayor ayuda, contacta con el Grupo D.';
   }
